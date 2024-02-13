@@ -4,9 +4,8 @@
   padding: 0;
 }
 body {
-  /*   padding: 50px;
-    border-radius: 20px;*/
   background-color: black;
+  font-family: "Poppins", sans-serif;
 }
 .header-pic {
   width: 100%;
@@ -58,17 +57,18 @@ body {
   padding: 1.5ch 4ch;
   border-radius: 20px;
   margin: 50px 20px;
-  border: none;
+  
   font-weight: 600;
 }
 .follow {
-  background:/* rgb(85, 36, 188);*/ rgb(9, 28, 68);
-
+  background:rgb(9, 28, 68);
+  border: none;
   color: white;
 }
 .msg {
   background: white;
   color: rgb(100, 96, 96);
+  border: 1px solid rgb(100, 96, 96);
 }
 main {
   background: white;
